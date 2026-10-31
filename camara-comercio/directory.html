@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diretório | Câmara de Comércio de Goiânia</title>
+  <meta name="description" content="Diretório de empresas associadas à Câmara de Comércio de Goiânia.">
+  <meta name="author" content="Câmara de Comércio de Goiânia">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body data-page="directory">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/logo.svg" alt="" width="48" height="48">
+        <span class="brand-text">
+          <strong>Câmara de Comércio de Goiânia</strong>
+          <small>Conectando negócios em Goiânia - GO</small>
+        </span>
+      </a>
+      <button id="menu-btn" class="menu-btn" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav id="primary-nav" class="primary-nav" aria-label="Navegação principal">
+      <ul class="container">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="discover.html">Conheça a Região</a></li>
+        <li><a href="directory.html" class="active" aria-current="page">Diretório</a></li>
+        <li><a href="join.html">Associe-se</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <div class="container">
+      <h1>Diretório de associados</h1>
+      <p class="lead">Encontre empresas associadas à Câmara de Comércio de Goiânia.</p>
+
+      <div class="view-toggle" role="group" aria-label="Modo de visualização">
+        <button type="button" class="btn btn-outline" data-view="grid" aria-pressed="true">▦ Grade</button>
+        <button type="button" class="btn btn-outline" data-view="list" aria-pressed="false">☰ Lista</button>
+      </div>
+
+      <div id="members" class="members grid" aria-live="polite">
+        <p class="muted">Carregando associados...</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section aria-labelledby="ft-contato">
+        <h2 id="ft-contato">Câmara de Comércio de Goiânia</h2>
+        <address>
+          Av. Goiás, 1000 - Setor Central, Goiânia - GO, 74010-010<br>
+          <a href="tel:+556232000000">(62) 3200-0000</a><br>
+          <a href="mailto:contato@camaragoiania.org.br">contato@camaragoiania.org.br</a>
+        </address>
+      </section>
+      <section aria-labelledby="ft-mapa">
+        <h2 id="ft-mapa">Onde estamos</h2>
+        <iframe class="map" title="Mapa da sede da Câmara" loading="lazy"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-49.284800000000004%2C-16.701900000000002%2C-49.2448%2C-16.6719&amp;layer=mapnik&amp;marker=-16.6869%2C-49.2648"></iframe>
+      </section>
+      <section aria-labelledby="ft-social">
+        <h2 id="ft-social">Redes sociais</h2>
+        <ul class="social">
+          <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Câmara de Comércio de Goiânia. Projeto acadêmico.</p>
+      <p>Última modificação: <span id="last-modified"></span></p>
+    </div>
+  </footer>
+  <script type="module" src="scripts/main.js"></script>
+  <script type="module" src="scripts/directory.js"></script>
+</body>
+</html>

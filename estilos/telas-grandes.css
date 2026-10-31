@@ -1,0 +1,81 @@
+/* ============================================================
+   Telas grandes — ajustes aplicados por media queries
+   ============================================================ */
+
+/* Tablet (≥ 640px) */
+@media (min-width: 640px) {
+  h1 { font-size: 2rem; }
+
+  .apresentacao {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+
+  .foto-perfil {
+    flex-shrink: 0;
+    width: 160px;
+    height: 160px;
+  }
+
+  .cartoes-info { grid-template-columns: repeat(2, 1fr); }
+
+  .botao-filtro { flex: 0 0 auto; }
+
+  .cursos { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* Desktop (≥ 1024px) */
+@media (min-width: 1024px) {
+  .botao-menu { display: none; }
+
+  .menu {
+    display: block;
+    background: transparent;
+  }
+
+  .cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: max(1rem, (100% - 1100px) / 2);
+  }
+
+  .cabecalho .container { width: auto; margin: 0; }
+
+  .menu ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .menu a,
+  .menu .em-breve {
+    padding: 0.4rem 0;
+    border-bottom: 3px solid transparent;
+  }
+
+  .menu a.ativo { border-bottom-color: var(--cor-destaque); }
+
+  main { padding-block: 2.5rem 4rem; gap: 3rem; }
+
+  .cartoes-info { grid-template-columns: repeat(3, 1fr); }
+
+  .certificado {
+    padding: 2rem;
+    border-radius: var(--raio);
+    background: var(--cor-superficie);
+    box-shadow: var(--sombra);
+  }
+
+  .cartao-curso { transition: transform 0.2s; }
+  .cartao-curso:hover { transform: translateY(-3px); }
+
+  .rodape-interno {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .redes-sociais { margin-bottom: 0; }
+}

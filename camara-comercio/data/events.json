@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Café com Negócios",
+    "date": "2026-11-10",
+    "time": "08h00",
+    "location": "Sede da Câmara"
+  },
+  {
+    "title": "Workshop: Vendas no Digital",
+    "date": "2026-11-18",
+    "time": "19h00",
+    "location": "Auditório Centro"
+  },
+  {
+    "title": "Rodada de Negócios do Agro",
+    "date": "2026-11-26",
+    "time": "14h00",
+    "location": "Centro de Convenções"
+  },
+  {
+    "title": "Feira de Natal dos Associados",
+    "date": "2026-12-05",
+    "time": "10h00",
+    "location": "Praça Cívica"
+  },
+  {
+    "title": "Confraternização Anual",
+    "date": "2026-12-12",
+    "time": "20h00",
+    "location": "Espaço Flamboyant"
+  },
+  {
+    "title": "Planejamento Estratégico 2027",
+    "date": "2027-01-21",
+    "time": "09h00",
+    "location": "Sede da Câmara"
+  }
+]
