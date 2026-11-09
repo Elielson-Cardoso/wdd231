@@ -5,12 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Diretório | Câmara de Comércio de Goiânia</title>
   <meta name="description" content="Diretório de empresas associadas à Câmara de Comércio de Goiânia.">
-  <meta name="author" content="Câmara de Comércio de Goiânia">
+  <meta name="author" content="Elielson Cardoso">
+  <meta property="og:title" content="Diretório | Câmara de Comércio de Goiânia">
+  <meta property="og:description" content="Diretório de empresas associadas à Câmara de Comércio de Goiânia.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://elielson-cardoso.github.io/wdd231/camara/images/og-camara.png">
+  <meta property="og:url" content="https://elielson-cardoso.github.io/wdd231/camara/diretorio.html">
   <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="estilos/normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="estilos/telas-pequenas.css">
+  <link rel="stylesheet" href="estilos/telas-grandes.css">
 </head>
 <body data-page="directory">
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -30,9 +37,9 @@
     <nav id="primary-nav" class="primary-nav" aria-label="Navegação principal">
       <ul class="container">
         <li><a href="index.html">Início</a></li>
-        <li><a href="discover.html">Conheça a Região</a></li>
-        <li><a href="directory.html" class="active" aria-current="page">Diretório</a></li>
+        <li><a href="diretorio.html" class="active" aria-current="page">Diretório</a></li>
         <li><a href="join.html">Associe-se</a></li>
+        <li><a href="discover.html">Sobre</a></li>
       </ul>
     </nav>
   </header>
@@ -42,6 +49,7 @@
       <h1>Diretório de associados</h1>
       <p class="lead">Encontre empresas associadas à Câmara de Comércio de Goiânia.</p>
 
+      <h2>Empresas associadas</h2>
       <div class="view-toggle" role="group" aria-label="Modo de visualização">
         <button type="button" class="btn btn-outline" data-view="grid" aria-pressed="true">▦ Grade</button>
         <button type="button" class="btn btn-outline" data-view="list" aria-pressed="false">☰ Lista</button>
@@ -79,7 +87,9 @@
       </section>
     </div>
     <div class="footer-bottom">
-      <p>&copy; <span id="year"></span> Câmara de Comércio de Goiânia. Projeto acadêmico.</p>
+      <p><strong>Projeto de Aula WDD 231</strong></p>
+      <p>Elielson Cardoso</p>
+      <p>&copy; <span id="year"></span> Câmara de Comércio de Goiânia</p>
       <p>Última modificação: <span id="last-modified"></span></p>
     </div>
   </footer>

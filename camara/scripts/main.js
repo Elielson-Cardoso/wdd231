@@ -4,7 +4,7 @@
 const CITY = { name: 'Goiânia', lat: -16.6869, lon: -49.2648 };
 
 export const LEVELS = {
-  1: { name: 'Bronze', css: 'level-1' },
+  1: { name: 'Membro', css: 'level-1' },
   2: { name: 'Prata', css: 'level-2' },
   3: { name: 'Ouro', css: 'level-3' },
 };
@@ -27,7 +27,7 @@ export function memberCard(member) {
   const article = document.createElement('article');
   article.className = `member-card ${level.css}`;
   article.innerHTML = `
-    <img src="${escapeHTML(member.image)}" alt="Logotipo de ${escapeHTML(member.name)}" width="96" height="96" loading="lazy">
+    <img src="images/members/${escapeHTML(member.image)}" alt="Logotipo de ${escapeHTML(member.name)}" width="96" height="96" loading="lazy">
     <h3>${escapeHTML(member.name)}</h3>
     <p class="tagline">${escapeHTML(member.tagline)}</p>
     <p>${escapeHTML(member.address)}</p>
@@ -105,7 +105,7 @@ async function renderWeather() {
 async function renderEvents() {
   const list = $('#events');
   try {
-    const events = await getJSON('data/events.json');
+    const events = await getJSON('dados/events.json');
     const today = new Date().toISOString().slice(0, 10);
     const upcoming = events
       .filter((event) => event.date >= today)
@@ -146,7 +146,7 @@ function shuffle(items) {
 async function renderSpotlights() {
   const container = $('#spotlights');
   try {
-    const members = await getJSON('data/members.json');
+    const members = await getJSON('dados/membros.json');
     const eligible = members.filter((member) => member.membershipLevel >= 2);
     container.replaceChildren(...shuffle(eligible).slice(0, 3).map(memberCard));
   } catch (error) {

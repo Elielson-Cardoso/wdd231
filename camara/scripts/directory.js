@@ -14,7 +14,7 @@ function setView(view) {
 
 async function renderMembers() {
   try {
-    const members = await getJSON('data/members.json');
+    const members = await getJSON('dados/membros.json');
     members.sort((a, b) => b.membershipLevel - a.membershipLevel || a.name.localeCompare(b.name, 'pt-BR'));
     container.replaceChildren(...members.map(memberCard));
   } catch (error) {
