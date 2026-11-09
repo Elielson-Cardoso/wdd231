@@ -5,7 +5,7 @@
     "address": "Rua 1137, 245 - Setor Marista",
     "phone": "(62) 3241-1010",
     "url": "https://www.example.com/cerrado-tech-solucoes",
-    "image": "images/members/cerrado-tech-solucoes.svg",
+    "image": "cerrado-tech-solucoes.svg",
     "membershipLevel": 3
   },
   {
@@ -14,7 +14,7 @@
     "address": "Av. T-10, 890 - Setor Bueno",
     "phone": "(62) 3087-2233",
     "url": "https://www.example.com/ipe-amarelo-cafe",
-    "image": "images/members/ipe-amarelo-cafe.svg",
+    "image": "ipe-amarelo-cafe.svg",
     "membershipLevel": 2
   },
   {
@@ -23,7 +23,7 @@
     "address": "Rua 87, 512 - Setor Sul",
     "phone": "(62) 3215-4455",
     "url": "https://www.example.com/buriti-arquitetura",
-    "image": "images/members/buriti-arquitetura.svg",
+    "image": "buriti-arquitetura.svg",
     "membershipLevel": 3
   },
   {
@@ -32,7 +32,7 @@
     "address": "Av. Anhanguera, 5400 - Setor Oeste",
     "phone": "(62) 3229-8080",
     "url": "https://www.example.com/pequi-alimentos",
-    "image": "images/members/pequi-alimentos.svg",
+    "image": "pequi-alimentos.svg",
     "membershipLevel": 1
   },
   {
@@ -41,7 +41,7 @@
     "address": "Rod. BR-153, km 5 - Jardim Guanabara",
     "phone": "(62) 3204-6600",
     "url": "https://www.example.com/araguaia-logistica",
-    "image": "images/members/araguaia-logistica.svg",
+    "image": "araguaia-logistica.svg",
     "membershipLevel": 3
   },
   {
@@ -50,7 +50,7 @@
     "address": "Rua 44, 300 - Setor Norte Ferroviário",
     "phone": "(62) 3223-4444",
     "url": "https://www.example.com/moda-fashion-44",
-    "image": "images/members/moda-fashion-44.svg",
+    "image": "moda-fashion-44.svg",
     "membershipLevel": 2
   },
   {
@@ -59,7 +59,7 @@
     "address": "Av. 136, 761 - Setor Marista",
     "phone": "(62) 3091-7777",
     "url": "https://www.example.com/clinica-vida-plena",
-    "image": "images/members/clinica-vida-plena.svg",
+    "image": "clinica-vida-plena.svg",
     "membershipLevel": 2
   },
   {
@@ -68,7 +68,7 @@
     "address": "Av. Goiás, 1520 - Setor Central",
     "phone": "(62) 3212-3030",
     "url": "https://www.example.com/contabil-goyaz",
-    "image": "images/members/contabil-goyaz.svg",
+    "image": "contabil-goyaz.svg",
     "membershipLevel": 1
   },
   {
@@ -77,7 +77,7 @@
     "address": "Av. Fued José Sebba, 1170 - Jardim Goiás",
     "phone": "(62) 3218-9090",
     "url": "https://www.example.com/serra-dourada-eventos",
-    "image": "images/members/serra-dourada-eventos.svg",
+    "image": "serra-dourada-eventos.svg",
     "membershipLevel": 1
   }
 ]
